@@ -11,7 +11,7 @@ Typically, WordPress installations are a spaghetti of the WordPress core, plugin
 
 Clone the repository:
 
-    git clone --recursive git://github.com/Darep/wordpress-boilerplate.git
+    git clone --recursive https://dchansel@bitbucket.org/agence_distill/wordpress-boilerplate.git
 
 And remove this origin repository from your working copy:
 
