@@ -1,11 +1,13 @@
 WordPress Boilerplate
 =====================
+My boilerplate is the combination of two wordpress projects :
+- The Wordpress Boilerplate from https://github.com/Darep/wordpress-boilerplate
+- The Multi Environnment Configuration from http://github.com/studio24/wordpress-multi-env-config.git
 
-WordPress Boilerplate is a simple starting point which includes WordPress as a submodule, the required configurations and a dummy plugin &amp; theme structure.
+The 'Darep' WordPress Boilerplate is a simple starting point which includes WordPress as a submodule, the required configurations and a dummy plugin &amp; theme structure.
+The 'Studio24' Multi Environnment Configuration supports multiple environments such as your local development copy, a test staging site, and the live production site. 
 
-#### Motivation
 
-Typically, WordPress installations are a spaghetti of the WordPress core, plugins, themes and what have you. This makes upgrading WordPress a pain. The point of this boilerplate is to keep the WordPress core and everything else cleanly separated. This is achieved by using git submodules and some config hacking and Apache redirects :)
 
 ## Installation
 
@@ -21,6 +23,10 @@ And remove this origin repository from your working copy:
 Add your new origin repository to your working copy:
 
     git remote add origin <url_here>
+
+
+## Configuration
+
 
 ## Upgrading Wordpress
 
@@ -44,13 +50,8 @@ Commit your Wordpress upgrade:
     cd ..
     git commit -m "Updating wordpress to <tag-name>"
 
-## Author
 
-Antti-Jussi Kovalainen. [Twitter](http://twitter.com/@darep), [GitHub](http://github.com/Darep), [homepage](http://ajk.fi/)
 
-## Contributors
-
-- Jasper van Wanrooy ([jappievw](https://github.com/jappievw)) : Readme refactoring, Upgrade instructions, gitignore fixes, WP 3.7 security config info
 
 ## Contributing
 
