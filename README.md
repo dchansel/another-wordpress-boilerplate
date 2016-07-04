@@ -1,8 +1,9 @@
 WordPress Boilerplate
 =====================
 My boilerplate is the combination of two wordpress projects :
-- The Wordpress Boilerplate from https://github.com/Darep/wordpress-boilerplate
-- The Multi Environnment Configuration from http://github.com/studio24/wordpress-multi-env-config.git
+
+* The Wordpress Boilerplate from https://github.com/Darep/wordpress-boilerplate
+* The Multi Environnment Configuration from http://github.com/studio24/wordpress-multi-env-config.git
 
 The 'Darep' WordPress Boilerplate is a simple starting point which includes WordPress as a submodule, the required configurations and a dummy plugin &amp; theme structure.
 The 'Studio24' Multi Environnment Configuration supports multiple environments such as your local development copy, a test staging site, and the live production site. 
