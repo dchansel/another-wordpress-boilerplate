@@ -22,7 +22,7 @@ define('DB_USER', '');
 define('DB_PASSWORD', '');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '');
 
 /**
  * For developers: WordPress debugging mode.
