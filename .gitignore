@@ -1,6 +1,7 @@
 wp-config.php
 wp-config/*
 wp-content/uploads/
+wp-content/languages/*
 wp-content/blogs.dir/
 wp-content/upgrade/
 wp-content/backup-db/
