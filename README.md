@@ -75,7 +75,7 @@ Commit your Wordpress upgrade:
 
 
 ## Thanks
-Specials thanks to [Darep](https://github.com/Darep) [studio24](http://github.com/studio24) for their works and their knowledge sharing about git submodules, htaccess env, ...  
+Specials thanks to [Darep](https://github.com/Darep) and [studio24](http://github.com/studio24) for their works and their knowledge sharing about git submodules, htaccess env, ...  
 
 ## License
 
