@@ -1,5 +1,8 @@
+#SetEnv WP_ENV test
+
 <IfModule mod_rewrite.c>
     RewriteEngine On
+
     RewriteBase /
 
     # BEGIN WordPress
