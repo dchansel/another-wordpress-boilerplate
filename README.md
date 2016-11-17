@@ -6,7 +6,7 @@ My boilerplate is the combination/mashup of two wordpress projects :
 * The Multi Environnment Configuration from http://github.com/studio24/wordpress-multi-env-config.git
 
 The 'Darep' WordPress Boilerplate is a simple starting point which includes WordPress as a submodule, the required configurations and a dummy plugin &amp; theme structure.
-The 'Studio24' Multi Environnment Configuration supports multiple environments such as your local development copy, a test staging site, and the live production site. 
+The 'Studio24' Multi Environnment Configuration supports multiple environments such as your local development copy, a test staging site, and the live production site.
 
 
 
@@ -30,7 +30,7 @@ Add your new origin repository to your working copy:
 The wp-config folder content by default a set of differents environment configurations (test, staging and production)
 There's two ways to switch beetween environments:
 
-## .htaccess file editing 
+### By .htaccess file editing 
 By editing the SetEnv WP_ENV parameter, you can change environment configuration loading.
     
     SetEnv WP_ENV test
@@ -45,6 +45,21 @@ A hostname's convention is used to detect which environment must be loading :
 
 _I'm not sure hostname with subdomain is completly worked (I must test that)_
 
+## Others Configuration Stuffs
+Dont't forget to change the Authentication Unique Keys and Salts in the wp-config.default.php, it's a security issue.
+
+    define('AUTH_KEY',         'put your unique phrase here');
+    define('SECURE_AUTH_KEY',  'put your unique phrase here');
+    define('LOGGED_IN_KEY',    'put your unique phrase here');
+    define('NONCE_KEY',        'put your unique phrase here');
+    define('AUTH_SALT',        'put your unique phrase here');
+    define('SECURE_AUTH_SALT', 'put your unique phrase here');
+    define('LOGGED_IN_SALT',   'put your unique phrase here');
+    define('NONCE_SALT',       'put your unique phrase here');
+
+Just go to  
+[https://api.wordpress.org/secret-key/1.1/salt/](https://api.wordpress.org/secret-key/1.1/salt/)
+and copy and replace the output in wp-config.default.php.
 
 ## Adding others environments 
 Others environments can be adding, just :
