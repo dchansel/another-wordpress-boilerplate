@@ -1,0 +1,14 @@
+{
+    "name": "dchansel/another-wordpress-boilerplate",
+    "type": "boilerplate",
+    "description": "a wordpress boilerplate",
+    "keywords": ["wordpress", "boilerplate", "deploiement"],
+    "homepage": "dchansel/another-wordpress-boilerplate",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Damien Chansel",
+            "email": "dchansel@free.fr"
+        }
+    ]
+}
